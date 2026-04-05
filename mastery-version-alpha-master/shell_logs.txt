@@ -1,0 +1,500 @@
+    6  ls ~/.ssh
+    7  ssh-keygen
+    8  eval "$(ssh-agent -s)"
+    9  ssh-add ~/.ssh/id_rsa
+   10  cat ~/.ssh/id_rsa.pub
+   11  ssh -T git@github.com
+   12  git clone git@github.com:cs429-sp2026/ci-lab-holtluck.git
+   13  make
+   14  make
+   15  make
+   16  make
+   17  make
+   18  make clean
+   19  make
+   20  make
+   21  make test-week2
+   22  make clean
+   23  make
+   24  make test-week2
+   25  make test_week2
+   26  make test_week2
+   27  ./bin/ci -i /tmp/test_large.s 2>&1
+   28  make test_week2
+   29  git add .
+   30  get push origin main
+   31  git push origin main
+   32  git status
+   33  git commit -m "update"
+   34  git push origin main
+   35  make
+   36  git commit -m "second update"
+   37  git push origin main
+   38  make test_week2
+   39  make
+   40  make
+   41  make
+   42  make
+   43  make test_week3
+   44  make test_week3
+   45  status
+   46  git status
+   47  git add .
+   48  git commit -m "updates week 3"
+   49  git push
+   50  git status
+   51  make test_hashtable
+   52  make
+   53  make
+   54  make test_week4
+   55  make test_week4
+   56  make test_week4
+   57  make test_week4
+   58  status
+   59  git status
+   60  git commit -a
+   61  git add .
+   62  git status
+   63  git add .
+   64  git commit -m "week 4 updates"
+   65  git push
+   66  git status
+   67  git commit -m "updates"
+   68  git stage .
+   69  git stage
+   70  git add .
+   71  git commit -a
+   72  git clone https://github.com/cs429-sp2026/mm-lab-holtluck
+   73  git clone https://github.com/cs429-sp2026/mm-lab-holtluck
+   74  git clone https://github.com/cs429-sp2026/mm-lab-holtluck
+   75  git clone https://github.com/cs429-sp2026/mm-lab-holtluck
+   76  git clone git@github.com:cs429-sp2026/mm-lab-holtluck.git
+   77  make
+   78  make heap_runner
+   79  ./heap_runner
+   80  ./runner -f traces/short1.rep
+   81  ./heap_runner
+   82  ./heap_runner
+   83  ./runner
+   84  git status
+   85  git add .
+   86  git commit -m "week 1"
+   87  git push
+   88  git add .
+   89  git commit -m "week 1 part 2"
+   90  git push
+   91  git add .
+   92  git commit -m "week 1 part 2"
+   93  git push
+   94  make
+   95  make test_week2
+   96  make clean
+   97  make
+   98  make debug
+   99  ./runner -f traces/short1.rep
+  100  ./runner -r
+  101  ./runner -r traces/week2
+  102  ./runner -r traces/week2/basic
+  103  ./runner -r traces/week2/basic/amptjp-bal.rep
+  104  make
+  105  git status
+  106  git commit -m "week 2"
+  107  git add
+  108  git add .
+  109  git commit -a "week 2"
+  110  git commit -m "week 2"
+  111  git push
+  112  git status
+  113  git add .
+  114  git commit -m "week 2"
+  115  git push
+  116  git status
+  117  git add .
+  118  git commit -m "week 2"
+  119  gitpush
+  120  git push
+  121  make clean
+  122  make all
+  123  make runner
+  124  python [driver.py] (http://_vscodecontentref_/6) -w 2
+  125  git add .
+  126  git commit -m "week2"
+  127  git push
+  128  make runner
+  129  git restore runner.c
+  130  git restore --staged runner.c
+  131  git restore runner.c
+  132  git add .
+  133  git commit -m "week 2"
+  134  git push
+  135  git add .
+  136  git commit -m "week 2"
+  137  git push
+  138  make runner
+  139  make
+  140  make runner
+  141  make 
+  142  make
+  143  make
+  144  make
+  145  make
+  146  make runner
+  147  make
+  148  make
+  149  make
+  150  make runner
+  151  git add .
+  152  git commit -m "week 2"
+  153  git push
+  154  git status
+  155  git add .
+  156  git commit -m "week 2"
+  157  git push
+  158  make
+  159  git add .
+  160  git commit -m "week 2"
+  161  git push
+  162  touch ~/.gdbinit
+  163  nano ~/.gdbinit
+  164  make
+  165  make
+  166  make
+  167  ls
+  168  make
+  169  make check
+  170  make clean
+  171  make debug
+  172  gdb mini_ci
+  173  make
+  174  make clean
+  175  gdb
+  176  make check
+  177  ./testcases/basic_add.s
+  178  make clean
+  179  make
+  180  /mini.ci testcases/basic_add.s
+  181  ./mini.ci testcases/basic_add.s
+  182  make
+  183  ./mini_ci testcases/basic_add.s
+  184  gdb
+  185  make
+  186  make clean
+  187  makke
+  188  make
+  189  ./mini_ci testcases/basic_add.s
+  190  make
+  191  make clean
+  192  make
+  193  ./mini_ci testcases/basic_add.s
+  194  make
+  195  ./mini_ci testcases/basic_add.s
+  196  backtrace
+  197  gdb
+  198  make
+  199  ./mini_ci testcases/basic_add.s
+  200  touch ~/.gdbinit
+  201  nano ~/.gdbinit
+  202  nano ~/.gdbinit
+  203  git clone git@github.com:holtluck/Mastery-Practice.git
+  204  ls
+  205  1s
+  206  ls
+  207  touch Makefile
+  208  nano Makefile
+  209  make
+  210  ./program
+  211  make
+  212  make check
+  213  ./mini_ci
+  214  ./mini_ci testcases/basic_add.s
+  215  ./mini_ci testcases/basic_div.s
+  216  ./mini_ci testcases/basic_mul.s
+  217  ./mini_ci testcases/basic_sub.s
+  218  ./mini_ci testcases/err_ops.s
+  219  gdb
+  220  make check
+  221  ./mini_ci_reference testcases/basic_add.s
+  222  make clean
+  223  make
+  224  make debug
+  225  make debug
+  226  make tests
+  227  make debug 
+  228  make clean
+  229  make debug
+  230  gdb
+  231  gdb ./mini_ci
+  232  make clean
+  233  make debug
+  234  gdb ./mini_ci
+  235  make clean
+  236  make check
+  237  make clean
+  238  make debug
+  239  gdb ./mini_ci
+  240  make
+  241  ls
+  242  ./mini_ci testcases/basic_add.s
+  243  ./mini_ci_reference testcases/basic_add.s
+  244  make check
+  245  make check
+  246  make clean
+  247  make debug
+  248  gdb
+  249  gdb ./mini_ci
+  250  make check
+  251  make
+  252  make clean
+  253  make
+  254  make check
+  255  make
+  256  make clean
+  257  make check
+  258  touch ~/.gdbinit
+  259  nano ~/.gdbinit
+  260  git clone git@github.com:holtluck/Mastery-Practice.git
+  261  make
+  262  make clean
+  263  make all
+  264  make clean
+  265  make all
+  266  make all
+  267  make check
+  268  gdb ref_treap
+  269  make debug
+  270  gdb ref_treap
+  271  make debug
+  272  gdb treap
+  273  gdb
+  274  make debug
+  275  gdb ./ref_treap
+  276  make all
+  277  make debug
+  278  gdb treap
+  279  make all
+  280  make test
+  281  make debug
+  282  make all
+  283  make clean
+  284  make debug
+  285  gdb ref_treap
+  286  gdb treap
+  287  make debug
+  288  make clean
+  289  make debug
+  290  gdb./ bin/treap
+  291  gdb ./bin/treap
+  292  make clean
+  293  make debug
+  294  gdb ./bin/treap
+  295  make clean
+  296  make all
+  297  make check
+  298  gdb ./bin/treap
+  299  make clean
+  300  make debug
+  301  gdb ./bin/treap
+  302  ./bin/treap testcases/alpha
+  303  ./bin/treap < testcases/alpha
+  304  make all
+  305  make all
+  306  make all
+  307  make all
+  308  make all
+  309  git clone git@github.com:cs429-sp2026/shared-repo-round1-holtluck.git
+  310  make all
+  311  make clean
+  312  make debug
+  313  gdb ./bin/treap
+  314  make clean
+  315  make debug
+  316  gdb ./bin/treap
+  317  make all
+  318  ./bin/treap testcases/alpha
+  319  ./ref_treap testcases/alpha
+  320  git clone git@github.com:cs429-sp2026/se-lab-holt.git
+  321  grep -r "typedef enum" include/
+  322  make
+  323  make
+  324  make week1
+  325  make week_1
+  326  make week1
+  327  make
+  328  __attribute__((unused)) __attribute__((unused)) 
+  329  grep -n "cond_holds\|__attribute__" src/base/hw_elts.c
+  330  make
+  331  sed -i 's/static bool cond_holds/static bool __attribute__((unused)) cond_holds/' src/base/hw_elts.c
+  332  grep -n "cond_holds" src/base/hw_eltc.c
+  333  make week1
+  334  make week1
+  335  git add .
+  336  git commit -m "try1"
+  337  git push
+  338  make week1
+  339  make test
+  340  bin/test-hw
+  341  make hw
+  342  make help
+  343  make all
+  344  make clean
+  345  make week1
+  346  bin/test-hw
+  347  make week1
+  348  git status
+  349  git add .
+  350  git commit -m "try again"
+  351  git push
+  352  cat Makefile
+  353  make clean
+  354  make
+  355  make clean
+  356  make week1
+  357  make week1 2>&1 | grep "error:"
+  358  sed -i 's/^static comb_logic_t$/__attribute__((unused)) static comb_logic_t/' src/pipe/instr_Fetch.c
+  359  sed -i 's/^static void fix_instr_aliases/__attribute__((unused)) static void fix_instr_aliases/' src/pipe/instr_Fetch.c
+  360  sed -i 's/uint64_t current_PC;/uint64_t current_PC = 0;/' src/pipe/instr_Fetch.c
+  361  make week1
+  362  sed -i 's/static comb_logic_t predict_PC/__attribute__((unused)) static comb_logic_t predict_PC/' src/pipe/instr_Fetch.c
+  363  make week1
+  364  sed -i 's/static comb_logic_t decide_alu_op/__attribute__((unused)) static comb_logic_t decide_alu_op/' src/pipe/instr_Decode.c
+  365  sed -i 's/static comb_logic_t extract_immval/__attribute__((unused)) static comb_logic_t extract_immval/' src/pipe/instr_Decode.c
+  366  sed -i 's/static comb_logic_t generate_DXMW_control/__attribute__((unused)) static comb_logic_t generate_DXMW_control/' src/pipe/instr_Decode.c
+  367  make week1
+  368  sed -i 's/static size_t _log/__attribute__((unused)) static size_t _log/' src/cache/cache.c
+  369  make week1
+  370  make week1
+  371  bin/test-hw
+  372  bin/test-hw -v
+  373  bin/test-hw -v 2
+  374  test-hw -v 2
+  375  make clean
+  376  bin/test-hw -v 2
+  377  make
+  378  bin/test-hw
+  379  bin/test-hw -v 2
+  380  bin/test-hw -v 2
+  381  bin/test-hw -v 2
+  382  Welcome to the C S 429 System Emulator
+  383  Author: Reference Implementation
+  384  Run begun at Wed Apr  1 19:11:28 2026
+  385          [INFO] Opening ALU testcase file: alu_hw.tb
+  386  ALU: PASS_A_OP [a, b, hw, cond, NZCV_old, set_flags] = [0x0, 0x0, 0x0, NV, 0b0000, false]
+  387  Expected: [vale, condval, NZCV] = [0x0, true, 0b0000]
+  388  Got:      [vale, condval, NZCV] = [0x0, false, 0b0000]
+  389          [ERROR] Failed ALU test with verbosity >= 2 due to mismatched condval
+  390  make
+  391  grep -n "cond_val\|cond_holds\|C_NV\|C_AL" src/base/hw_elts.c
+  392  grep -n "cond_val\|cond_holds\|C_NV\|C_AL" src/base/hw_elts.c
+  393  bin/test-hw -v 2
+  394  make clean
+  395  make
+  396  make clean
+  397  make week1
+  398  bin/test-hw -v 2
+  399  bin/test-hw -v 2
+  400  touch src/base/hw_elts.c && make week1
+  401  bin/test-hw -v 2
+  402  make
+  403  make
+  404  make clean
+  405  make week1
+  406  bin/test-hw -v 2
+  407  bin/test-hw
+  408  git status
+  409  git status
+  410  git add .
+  411  git commmit -m "work"
+  412  git commit -m "work"
+  413  git push
+  414  bin/test-hw
+  415  git clone git@github.com:holtluck/Mastery-Practice.git
+  416  exit
+  417  git clone git@github.com:holtluck/mastery-version-alpha.git
+  418  make stitch
+  419  make pleakley
+  420  make nani
+  421  make clean
+  422  make cobra
+  423  make stitch
+  424  ./second_trie testcases/no-find.in
+  425  make pleakley
+  426  ./bin/second_trie testcases/no-find.in
+  427  make lilo
+  428  ./bin/second_trie ./testcases/no-root.in
+  429  make pleakley
+  430  make nani
+  431  make lilo
+  432  make clean
+  433  make cobra
+  434  make lilo
+  435  gdb second_trie
+  436  gdb ./bin/second_trie
+  437  make clean
+  438  make cobra
+  439  make lilo
+  440  gdb ./bin/second_trie
+  441  make stitch
+  442  make pleakley
+  443  make nani
+  444  make clean
+  445  make lilo
+  446  make cobra
+  447  make lilo
+  448  gdb ./bin/second_trie
+  449  ./bin/second_trie < testcases/easy.in
+  450  ./bin/second_trie -w testcases/easy.in
+  451  make cobra
+  452  make lilo
+  453  gdb ./bin/second_trie
+  454  make cobra
+  455  make stitch
+  456  make pleakley
+  457  make cobra
+  458  make pleakley
+  459  run ./bin/second_trie -w testcases/no-root.in
+  460  ./bin/second_trie -w testcases/no-root.in
+  461  ./trie_ref -w testcases/no-root.in
+  462  make lilo
+  463  gdb ./bin/second_trie
+  464  make cobra
+  465  make lilo
+  466  gdb ./bin/second_trie
+  467  make stitch
+  468  make nani
+  469  chmod +x make nani
+  470  chmod +x ./bin/second_trie -w testcases/dinosaurs.in
+  471  cat Makefile
+  472  chmod +x ./bin/second_trie
+  473  chmod+x ./bin/second_trie
+  474  chmod +x ./bin/second_trie
+  475  make nani
+  476  chmod +x ./trie_ref
+  477  make nani
+  478  make cobra
+  479  make lilo
+  480  gdb ./bin/second_trie
+  481  make stitch
+  482  ./bin/second_trie -w testcases/dinosaurs.in
+  483  ./trie_ref -w testcases/dinosaurs.in
+  484  make clean
+  485  clear
+  486  make lilo
+  487  gdb ./bin/second_trie
+  488  make clean
+  489  make cobra
+  490  make stitch
+  491  make lilo
+  492  make clean
+  493  make cobra
+  494  make lilo
+  495  make clean
+  496  make cobra
+  497  make stitch
+  498  ./bin/second_trie -w testcases/dinosaurs.in
+  499  make pleakley
+  500  make nani
+  501  touch ~/shell_logs.txt
+  502  ls
+  503  ls -a
+  504  touch ./shell_logs.txt
+  505  history > ./shell_logs.txt
